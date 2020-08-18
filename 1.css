@@ -80,6 +80,10 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 
 @media (max-width:576px) {
     * {}
+
+.tt img {
+    margin-top: 100px;
+}
 li.nav-item {
     float: none!important;
     display: inline;
@@ -88,6 +92,11 @@ li.nav-item {
 ul.nav.navbar-nav.float-xs-right {
     float: none;
     text-align: center;
+    background: white;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    border: green solid 5px;
 }
 
 li.nav-item {
