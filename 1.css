@@ -140,13 +140,14 @@ li.nav-item {
 }
 
 ul.nav.navbar-nav.float-xs-right {
-    float: none;
     text-align: center;
     background: white;
     margin: 0;
     padding: 0px 0px 0px 0px;
-    width: 100%;
-    border: green solid 5px;
+    width: 109%;
+    float: none!important;
+    position: relative;
+    left: -15px;
 }
 
 li.nav-item {
